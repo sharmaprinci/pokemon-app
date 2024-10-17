@@ -11,7 +11,7 @@ A React application that fetches and displays Pokémon data from the [PokeAPI](h
 
 ## Demo
 
-Check out a live demo of the app 
+Check out a live demo of the app:- https://pokemon-app-one-gamma.vercel.app/
 
 ## Installation
 
