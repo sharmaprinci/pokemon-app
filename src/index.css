@@ -1,0 +1,39 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon-card {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.pokemon-card:hover {
+  background-color: bisque;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon-image {
+  width: 100px;
+  height: 100px;
+}
